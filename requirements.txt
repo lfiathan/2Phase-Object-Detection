@@ -4,6 +4,7 @@ opencv-python>=4.1.1
 kaggle>=1.5.10
 pandas>=1.1.5
 matplotlib>=3.2.2
+seaborn>=0.11.0
 pyqt5
 lxml
 torch 

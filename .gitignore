@@ -25,7 +25,8 @@ var/
 .kaggle/
 notebooks/dataset/
 dataset/
-runs/
+runs/detect/yolov8_phase1_coarse/weights/
+runs/detect/yolov8_phase2_fine/weights/
 models/
 yolov8n.pt
 # PyInstaller

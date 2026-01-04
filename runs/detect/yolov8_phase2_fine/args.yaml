@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: yolov8n.pt
-data: phase1-data.yaml
+model: ../runs/detect/yolov8_phase1_coarse/weights/best.pt
+data: phase2-data.yaml
 epochs: 50
 time: null
 patience: 10
@@ -13,7 +13,7 @@ cache: true
 device: mps
 workers: 8
 project: null
-name: yolov8_phase1_coarse
+name: yolov8_phase2_fine
 exist_ok: true
 pretrained: true
 optimizer: auto
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: /Users/macm4/repositories/Machine Learning Model/modisch-model/runs/detect/yolov8_phase1_coarse
+save_dir: /Users/macm4/repositories/Machine Learning Model/modisch-model/runs/detect/yolov8_phase2_fine
