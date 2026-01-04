@@ -44,8 +44,8 @@ class Config:
 
     # Training Hyperparameters (Keep as is or adjust)
     EPOCHS = 50
-    IMG_SIZE = 512
-    BATCH_SIZE = 16
+    IMG_SIZE = 224
+    BATCH_SIZE = 64
     WORKERS = 8 # Set based on your CPU cores
     PATIENCE = 10
     IOU_THRESHOLD = 0.7 # Used in prediction

@@ -1,0 +1,19 @@
+{
+  "phase": "phase1",
+  "image": "/Users/macm4/repositories/2Phase-Object-Detection/dataset/colorful_fashion_dataset_for_object_detection/JPEGImages/74409.jpg",
+  "conf": 0.2,
+  "iou": 0.45,
+  "max_det": 200,
+  "n_runs": 10,
+  "latency_seconds": {
+    "mean": 0.006132179102860391,
+    "p50": 0.006152604008093476,
+    "p95": 0.0064822000043932345,
+    "min": 0.005666374985594302,
+    "max": 0.006544750009197742
+  },
+  "fps": {
+    "mean": 163.0741671477834
+  },
+  "detections": 3
+}

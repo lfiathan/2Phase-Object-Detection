@@ -1,0 +1,19 @@
+{
+  "phase": "phase2",
+  "image": "/Users/macm4/repositories/2Phase-Object-Detection/notebooks/test/image_Jacket.png",
+  "conf": 0.2,
+  "iou": 0.45,
+  "max_det": 200,
+  "n_runs": 10,
+  "latency_seconds": {
+    "mean": 0.012907650007400661,
+    "p50": 0.012823500030208379,
+    "p95": 0.014023906397051178,
+    "min": 0.012156207987572998,
+    "max": 0.014324375020805746
+  },
+  "fps": {
+    "mean": 77.47343625111041
+  },
+  "detections": 1
+}
